@@ -1,0 +1,20 @@
+section{
+    background-color: rgb(174, 241, 219);
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid rgb(218, 186, 62);
+    position: relative;
+}
+.msg{
+    padding: 20px;
+    border-bottom: 2px solid rgb(218, 186, 62);
+
+}
+.re,.mes{
+    padding: 20px;
+}
+.nut{
+    position: absolute;
+    right: 20px;
+}

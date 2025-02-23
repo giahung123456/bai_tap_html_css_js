@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+
+}
+section{
+    border: 5px solid rgb(26, 20, 20);
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+      
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+   
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+   } 
+
+section{
+  background-color: blanchedalmond;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+}  
+ section .ghss{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 30px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ghss button{
+    background-color: blanchedalmond;
+    width: 70px;
+    height: 50px;
+    border:none;
+    margin: 0 5px;
+
+}
+.ghss button:hover{
+    background-color: rgb(115, 190, 227);
+}

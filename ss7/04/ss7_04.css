@@ -1,0 +1,21 @@
+h2{
+    border-left: 5px solid chartreuse;
+    padding: 0 5px;
+    
+}
+img {
+    width: 250px;
+    height: 300px;
+
+}
+.phongthuy{
+    color: rgb(171, 40, 191);
+    position: absolute;
+    top: 340px;  
+   
+}
+.hgn{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+}

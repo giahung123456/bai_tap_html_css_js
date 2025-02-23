@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(84, 99, 126);
+    
+}
+header{
+    background-color: rgb(97, 191, 226);
+    padding: 10px;
+}
+header .container:nth-of-type(1){
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+header .container:nth-of-type(1) a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: lighter;
+}
+header .container:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+}
+header .container ul li {
+    position: absolute;
+    bottom: 0;  /* Đặt phần tử ở dưới cùng */
+    left: 0;    /* Đặt phần tử ở bên trái */
+    background-color: #fff;  /* Màu nền cho li nếu cần */
+    padding: 5px;
+}
+

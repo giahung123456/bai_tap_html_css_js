@@ -1,0 +1,61 @@
+/* *{
+
+} 
+    áp dụng cho tất cả các phần tử trong css
+*/
+h2{
+    background-color: rgb(189, 231, 217);
+    color: blueviolet;
+    text-align: center;
+    /* căn chỉnh văn bản về giữa theo chiều ngang */
+    text-decoration: underline;
+    /* gạch dưới chân */
+    font-size: 50px;
+    /*  cỡ chữ */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /*
+     underline :gạch dưới
+    overline:gạch trên
+    line-throught:gạch giữa chữ
+    */
+letter-spacing: 10px;
+}
+a{
+    text-decoration: none;
+    /* bỏ gạch chân */
+   /* font-weight: ; độ đậm nhạt của chữ */
+   
+}
+h3,p {
+    color: rgb(127, 180, 255);
+}
+/* cả h3 và p đều đổi */
+.na{
+    background-color: rgb(30, 210, 81);
+}
+/* dùng mỗi cho naruto chũng được 
+nếu là id thì là: #, nhưng chỉ dùng chính nó không chung cái khác được
+*/
+.highlight >.tt{
+    background-color: aqua;
+}
+/* chỉnh tt trong highlight, áp dụng với con trực tiếp,gián tiếp không được */
+.kinang .nb{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(134, 169, 99); 
+}
+/* dùng được cả con trực tiếp và gián tiếp */
+
+input[type="ms"]{
+    background-color: rgb(173, 230, 165);
+    color:rgb(209, 88, 18) ;
+    
+}
+.su{
+    background-color: rgb(224, 145, 54);
+    
+}
+.su:hover{
+    background-color: chartreuse;
+}

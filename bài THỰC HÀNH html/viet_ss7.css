@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+.ha {
+  background-color: rgb(235, 225, 75);
+  width: 100px;
+  /* rộng */
+  height: 150px;
+  /* cao */
+  border: 5px solid rgb(161, 206, 105);
+  /* độ dày màu viền */
+  border-radius: 10px;
+  /* tròn góc  */
+  padding: 10px;
+  /* 
+     Là khoảng cách bên trong, giữa nội dung của phần tử và đường viền của phần tử đó.
+    1 số :cả 4 hướng
+    2 số: trên dưới -> trái phải
+    3 số: trên -> trái phải -> dưới 
+    4 số: trên -> trái -> phải -> dưới 
+
+    */
+  margin: 50px;
+  /* 
+    khoảng cách bên ngoài giữa phần tử và các phần tử khác xung quanh nó.  
+    cũng dùng 1,2,3,4
+    */
+
+}
+
+h2 {
+  background-color: rgba(177, 223, 121, 0.5);
+  /* số thứ tư: độ đậm nhạt từ 0-1; */
+  /* rgba chỉ ảnh hưởng đến màu sắc cụ thể (màu nền, đường viền), không làm mờ nội dung con. */
+}
+
+h3 {
+  background-color: rgb(149, 11, 184);
+  opacity: 0.5;
+  /* độ đạm nhạt: cũng như trên*/
+  /* opacity : ảnh hưởng đến toàn bộ thành phần, bao gồm cả nội dung bên trong. */
+}
+
+.relative div {
+  width: 100px;
+  height: 150px;
+  display: inline-block;
+  /* display: inline-block:Phần tử xếp trên một dòng (như inline), nhưng có thể chỉnh kích thước (như block). */
+  background-color: rgba(44, 160, 218, 0.345);
+  margin: 20px;
+  border: 10px solid rgb(240, 236, 30);
+  border-radius: 10px;
+}
+
+.relative .bana {
+  background-color: rgb(125, 222, 39);
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+/* 
+  Phần tử vẫn giữ vị trí ban đầu trong tài liệu.
+  Các thuộc tính định vị (top, right, bottom, left) sẽ điều chỉnh vị trí của phần tử dựa trên vị trí ban đầu.
+  Không ảnh hưởng đến vị trí của các phần tử khác.
+*/
+.absolute div {
+  width: 100px;
+  height: 150px;
+  display: inline-block;
+  /* display: inline-block:Phần tử xếp trên một dòng (như inline), nhưng có thể chỉnh kích thước (như block). */
+  background-color: rgba(44, 160, 218, 0.345);
+  margin: 20px;
+  border: 10px solid rgb(240, 236, 30);
+  border-radius: 10px;
+}
+
+.absolute .bana {
+  background-color: rgb(222, 155, 39);
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  left: 200px;
+  
+
+}
+
+
+/* fixed cũng gần giống  absolute nhưng không thay đổi vị trí khi cuộn trang*/
+.snt{
+  background-color: rgb(255, 217, 196);
+  width: 100px;
+ height: 100px;
+  border: 5px solid rgb(20, 23, 23);
+text-align: center;
+line-height: 100px;
+border-radius: 5px;
+transition:border-radius 4s 2s ,border-color 4s,background-color 4s; 
+  }
+.snt:hover{
+  background-color: chartreuse;
+  border: 5px solid rgb(156, 31, 156);
+  border-radius: 35px;
+}
+.nen{
+  background-color: aquamarine;
+  width: 700px;
+  height: 150px;
+}
+.go{
+  background-color: rgb(164, 62, 7);
+  width: 100px;
+ height: 100px;
+  border: 5px solid rgb(36, 12, 174);
+text-align: center;
+line-height: 100px;
+border-radius: 5px;
+margin-top: 10px;
+transition: 3s;
+}
+.nen:hover .go{
+  margin-left: 400px;
+}

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+    padding: 15px 40px;
+    border-radius: 8px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav-links .active {
+    font-weight: bold;
+}
+
+.search-box button {
+    background-color: #b0b0b0;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-box i {
+    font-size: 14px;
+}

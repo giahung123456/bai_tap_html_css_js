@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.mynan.com/" method="post">
+        <table>
+            <tr>
+                <td><label for="username">USERNAME</label></td>
+                <td> <input placeholder="ewyvjvwjvf472...." id="username" type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL</label></td>
+                <td><input placeholder="hf74ggf77@..." id="email" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td> <label for="dob">date of birth</label></td>
+                <td> <input id="dob" type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>giới tính</label></td>
+                <td><label>nam</label>
+                    <input type="radio" name="gender" value="nam">
+                    <label>nữ</label>
+                    <input type="radio" name="gender" value="nữ">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="telephone">TELEPHONE</label></td>
+                <td><input placeholder="05779...." id="telephone" name="telephone" pattern="^\d{10,11}$" type="tel"></td>
+            </tr>
+            <tr>
+                <td><label for="chuyên ngành">chuyên ngành</label></td>
+                <td><input type="text" placeholder="ewyvjvwjvf472...." id="chuyên ngành"  name="chuyên ngành"></td>
+            </tr>
+            <tr>
+                <td><label for="năm">năm nhập học</label></td>
+                <td><input id="năm" type="year" name="năm"  step="1">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gpa">điểm gpa</label></td>
+                <td><input id="gpa" type="number" name="gpa"  step="1">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comment">địa chỉ :</label></td>
+                <td><textarea id="comment" name="comment" rows="5" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            
+            
+            <tr>
+                <td> <label>LỚP HỌC</label></td>
+                <td> <select name="class">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option  value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                   
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="dob">ngày đăng kí học</label></td>
+                <td><input id="dob" type="datetime-local" name="dob"></td>
+            </tr>
+        </table>
+
+
+
+        <button>send</button>
+
+    </form>
+</body>
+
+</html>

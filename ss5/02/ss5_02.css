@@ -1,0 +1,10 @@
+.bl{
+   background-color: rgb(0, 0, 0);
+}
+.tl{
+    color: aliceblue;
+}
+.al{
+    color: darkgreen;
+    text-decoration: 5px underline dotted;
+}

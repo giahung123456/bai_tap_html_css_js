@@ -1,0 +1,47 @@
+.oto  {
+    width: 400px;
+    border: 1px solid rgb(171, 181, 182);
+    border-radius: 5px;
+    position: relative;
+}
+.oto .ac1{
+   padding: 5px;
+   border-bottom: 1px solid  rgb(171, 181, 182);
+   
+}
+.oto .ac2{
+    padding: 5px;
+    border-bottom: 1px solid  rgb(171, 181, 182);
+    background-color: rgb(169, 206, 238);
+    color: rgb(47, 47, 198);
+    
+}
+.oto .thcond{
+    padding: 5px;
+    border-bottom: 1px solid  rgb(171, 181, 182);
+ }
+
+
+.oto .ac3{
+    padding: 5px;
+ }   
+ #up{
+    position: absolute;
+     top: 43px;
+     z-index: 1; 
+    left: 390px; 
+ }
+ #down1{
+position: absolute;
+left: 390px;
+     top: 15px;
+     z-index: 1; 
+
+ }
+ #down2{
+position: absolute;
+     top: 120px;
+     left: 390px;
+     z-index: 1; 
+    
+ }

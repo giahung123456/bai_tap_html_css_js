@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.mynan.com/" method="post">
+        <table>
+            <tr>
+                <td><label for="username">USERNAME</label></td>
+                <td> <input placeholder="ewyvjvwjvf472...." id="username" type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL</label></td>
+                <td><input placeholder="hf74ggf77@..." id="email" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td> <label for="dob">date of birth</label></td>
+                <td> <input id="dob" type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>giới tính</label></td>
+                <td><label>nam</label>
+                    <input type="radio" name="gender" value="nam">
+                    <label>nữ</label>
+                    <input type="radio" name="gender" value="nữ">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comment">tên công ty :</label></td>
+                <td><textarea id="comment" name="comment" rows="2" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">TELEPHONE</label></td>
+                <td><input placeholder="05779...." id="telephone" name="telephone" pattern="^\d{10,11}$" type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td> <label>vai trò</label></td>
+                <td> <select name="vt">
+                        <option value="chủ tịch">chủ tịch</option>
+                        <option value="giám đốc">giám đốc</option>
+                        <option value="phó giám đốc">phó giám đốc</option>
+                        <option value="trưởng phòng">trưởng phòng</option>
+                        <option value="nhân viên">nhân viên</option>
+
+
+                    </select>
+                </td>
+            <tr>
+                <td> <label>quy mô công ty</label></td>
+                <td> <select name="qm">
+                        <option value="nhỏ">nhỏ</option>
+                        <option value="vừa">vừa</option>
+                        <option value="lớn">lớn</option>
+
+
+
+                    </select>
+                </td>
+
+            <tr>
+                <td><label for="ngành nghề">ngành nghề công ty :</label></td>
+                <td><textarea id="ngành nghề" name="ngành nghề" rows="2" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="lido">lí do vào clb</label></td>
+                <td><textarea id="lido" name="lido" rows="2" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="kinang">kĩ năng lãnh đạo:</label></td>
+                <td><textarea id="kinang" name="kinang" rows="2" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="muctieu"> mục tiêu tham gia clb</label></td>
+                <td><textarea id="muctieu" name="muctieu" rows="2" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>sự kiện muốn tham gia:</label></td>
+                <td><label>networking</label>
+                    <input type="checkbox" name="gender" value="networking">
+                    <label>workshops</label>
+                    <input type="checkbox" name="gender" value="workshops">
+                    <label>hội thảo</label>
+                    <input type="checkbox" name="gender" value="hội thảo">
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td><label> đăng kí nhận bản tin:</label></td>
+                <td> <label>có</label>
+                    <input type="checkbox" name="gender" value="có">
+                </td>
+            </tr>
+           
+        </table>
+
+
+
+        <button>send</button>
+    </form>
+</body>
+
+</html>

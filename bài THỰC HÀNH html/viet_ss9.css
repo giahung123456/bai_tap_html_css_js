@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    color: rgb(31, 24, 24);
+}
+
+section {
+    background-color: rgb(185, 246, 224);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+
+    /* 
+    row :thành hàng ngang
+    nếu thêm reveser thì là đảo ngược 
+    column:dọc từ trên xuống
+     nếu thêm reveser thì là đảo ngược 
+    */
+    flex-wrap: wrap;
+    /* 
+    Các phần tử con sẽ được phép xuống dòng nếu không gian trong Flex Container không đủ.
+    Dòng mới sẽ được sắp xếp bên dưới dòng cũ theo thứ tự tự nhiên (từ trên xuống dưới).
+    thêm reveser:Tương tự như wrap, nhưng các dòng mới sẽ được sắp xếp từ dưới lên trên.
+    */
+    justify-content: space-evenly;
+    /* 
+    flex start: mặc định,Căn chỉnh các phần tử ở đầu trục chính (bên trái đối với flex-direction: row).;
+      flex end:Căn chỉnh các phần tử ở cuối trục chính (bên phải đối với flex-direction: row).
+       entrer:Căn chỉnh các phần tử vào giữa trục chính.
+    space around:Khoảng cách giữa các phần tử được trải đều, nhưng có khoảng cách nhỏ hơn ở hai đầu Flex Container.
+    space between:Khoảng cách giữa các phần tử được trải đều, phần tử đầu tiên nằm ở đầu trục chính, phần tử cuối cùng nằm ở cuối trục chính.
+     space evenly:Khoảng cách giữa các phần tử và hai đầu Flex Container bằng nhau.
+
+     */
+    align-items:center;
+    /* 
+     flex-start
+    Căn chỉnh các phần tử con ở đầu trục chéo (bên trên với flex-direction: row).
+    flex-end
+    Căn chỉnh các phần tử con ở cuối trục chéo (bên dưới với flex-direction: row).
+    center
+    Căn chỉnh các phần tử con vào giữa trục chéo.
+     */
+     align-content: space-between;
+     /* 
+     tương tự gần như thế
+     */
+
+}
+
+section div {
+    width: 100px;
+    height: 100px;
+}
+
+section div:nth-of-type(1) {
+    background-color: rgb(119, 23, 209);
+}
+
+section div:nth-of-type(2) {
+    background-color: rgb(43, 226, 52);
+}
+
+section div:nth-of-type(3) {
+    background-color: rgb(208, 226, 43);
+}
+
+section div:nth-of-type(4) {
+    background-color: rgb(43, 150, 226);
+}
+
+section div:nth-of-type(5) {
+    background-color: rgb(226, 43, 211);
+}

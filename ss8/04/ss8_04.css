@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+   
+}
+.erat{
+    border-bottom: 5px solid chocolate;
+    width: 40px;
+    margin-bottom:10px ;
+}
+table{
+    padding-left: 20px;
+}
+img{
+   
+    width: 100px;
+    height: 100px;
+    border: 5px solid chartreuse;
+    
+    transform: rotate(45deg);
+}
+
+.xoay{
+    padding: 30px;
+}
+   

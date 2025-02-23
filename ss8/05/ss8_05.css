@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    
+}
+section{
+  background-color: rgb(164, 180, 193);
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+section:hover{
+    background-color: rgb(208, 226, 186);
+}
+.dllm{
+    position: absolute;
+    text-align: center;
+   padding: 20px 20px;
+    
+}
+.dllm::after {
+    
+    content: "";
+    display: block;
+    width: 50%; /* Chinh do dai duong gach */
+    height: 5px;
+    background-color: rgb(23, 18, 18);
+    margin: 15px auto 0; /* Dua no ve giua ma khong anh huong text */
+    transition: background-color 1s ease;
+}
+.dllm:hover::after {
+    background-color: rgb(255, 128, 0);
+}
+.dl{
+    position: absolute;
+    background-color: rgb(66, 122, 227);
+    border: none;
+    left: 50px;
+    top: 150px;
+   height: 30px;
+   text-align: center;  
+}
+.dl:hover{
+    background-color: rgb(0, 208, 255);
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+}
+
+.lm{
+    position: absolute;
+    background-color: bisque;
+    left: 150px;
+    top: 150px;
+    text-align: center; 
+    width: 100px;
+    height: 30px;
+    border: none;
+    
+}
+.lm:hover{
+    background-color: rgb(230, 0, 255);
+    box-shadow: 0 0 15px rgb(230, 0, 255); 
+    color: azure;
+}
+
+section .fbtwir{
+    position: absolute;
+bottom: 0; 
+height: 150px;
+width: 300px;
+background-color: rgb(160, 164, 168);
+border-top: 5px solid rgb(29, 21, 21);
+transition: border-top 1s ease;
+}
+section .fbtwir:hover{
+  background-color: rgb(232, 234, 113);  
+  border-top: 5px solid rgb(212, 123, 123);
+}
+#fb{
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+}
+#tw{
+    position: absolute;
+    bottom: 60px;
+    left: 130px;
+}
+#ir{
+    position: absolute;
+    bottom: 60px;
+    left: 190px;
+}
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>đăng ký</h1>
+
+<table>
+
+
+    <form action="https://www.mynan.com/" method="post">
+        <label for="username">USERNAME</label>
+        <input placeholder="ewyvjvwjvf472...." id="username" type="text" name="username"><br>
+        <label for="email">EMAIL</label>
+        <input placeholder="hf74ggf77@..." id="email" type="email" name="email"><br>
+        <label for="password">PASSWORD</label>
+        <input placeholder="247@ql8Q3*nr..." id="password" type="password" name="password"><br>
+        <label for="telephone">TELEPHONE</label>
+        <input placeholder="07429038..." id="telephone" type="tel" name="telephone" pattern="^\d{10,11}$" required><br>
+        <label for="url">WEBSITE</label>
+        <input id="url" type="url" name="url"><br>
+        <label for="search">SEARCH</label>
+        <input id="search" type="search" name="search"><br>
+        <label for="age">AGE</label>
+        <input id="age" type="number" name="age" min="0" max="100" step="1"><br>
+        <label for="dob">date of birth</label>
+        <input id="dob" type="date" name="dob"><br>
+        <label for="dob">date of birth</label>
+        <input id="dob" type="time" name="dob"><br>
+        <!-- mounth,week,datetime-local cũng được -->
+
+        <label>nam</label>
+        <input type="radio" name="gender" value="nam">
+        <label>nữ</label>
+        <input type="radio" name="gender" value="nữ">
+        <label>khác</label>
+        <input type="radio" name="gender" value="khác">
+        <!-- dùng checkbox sẽ chọn được nhiều lựa chọn hơn -->
+
+        <br>
+        <label>TỈNH</label><br>
+        <select name="city">
+            <option value="hà nội">hà nội</option>
+            <option value="quảng ninh">quảng ninh</option>
+            <option  value="đà nẵng">đà nẵng</option>
+            <option value="nha trang">nha trang</option>
+            <option value="cần thơ">cần thơ</option>
+            <option value="tp hồ chí minh">tp hồ chí minh</option>
+            <!-- multiple:chọn nhiều lựa chọn, size hay hơn
+              -->
+        </select>
+
+        <br>
+        <input type="reset" value="reset">
+        <!-- submit cũng gần như dưới -->
+        <button>send</button>
+    </form>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header-01 {
+    background-color: #5995db;
+    height: 40px;
+}
+header {
+    background-color: #b2d6ff;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.child-01 {
+    background-color: #f5cf8d;
+    height: 170px;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-02 {
+    background-color: #c8c6fa;
+    height: 170px;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-03 {
+    background-color: #f09a9d;
+    height: 170px;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2 {
+ background-color: #d7e9fe;
+ width: 100%;
+ height: 170px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.footer {
+    background-color: #ebedf0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .main .footer {
+        order: 1;
+    }
+    .main .main2 {
+        order: 2;
+        width: 50%;
+    }
+    .main .child-01 {
+        order: 3;
+        width: 50%;
+    }
+    .main .child-02 {
+        order: 5;
+        width: 50%;
+    }
+    .main .child-03 {
+        order: 4;
+        width: 50%;
+    }
+}

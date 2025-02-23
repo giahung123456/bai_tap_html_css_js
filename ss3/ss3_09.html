@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.mynan.com/" method="post">
+        <table>
+            <tr>
+                <td><label for="username">USERNAME</label></td>
+                <td> <input placeholder="ewyvjvwjvf472...." id="username" type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL</label></td>
+                <td><input placeholder="hf74ggf77@..." id="email" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td> <label for="dob">date of birth</label></td>
+                <td> <input id="dob" type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>giới tính</label></td>
+                <td><label>nam</label>
+                    <input type="radio" name="gender" value="nam">
+                    <label>nữ</label>
+                    <input type="radio" name="gender" value="nữ">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comment">địa chỉ :</label></td>
+                <td><textarea id="comment" name="comment" rows="2" cols="40" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">TELEPHONE</label></td>
+                <td><input placeholder="05779...." id="telephone" name="telephone" pattern="^\d{10,11}$" type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td> <label>vai trò</label></td>
+                <td> <select name="vt">
+                        <option value="nhóm trưởng">nhóm trưởng</option>
+                        <option value="nhóm phó">nhóm phó</option>
+                        <option value="thành viên">thành viên</option>
+
+
+                    </select>
+                </td>
+                <tr>
+                    <td><label for="sothich">sở thích :</label></td>
+                    <td><textarea id="sothich" name="sothich" rows="2" cols="40" style="resize: none;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="kinang">kĩ năng :</label></td>
+                    <td><textarea id="kinang" name="kinang" rows="2" cols="40" style="resize: none;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label >thời gian rảnh:</label></td>
+                    <td><label  >sáng</label>
+                        <input  type="checkbox" name="gender" value="sáng">
+                        <label >chiều</label>
+                        <input  type="checkbox" name="gender" value="chiều">
+                        <label >tối</label>
+                        <input  type="checkbox" name="gender" value="tối">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="lido">lí do vào nhóm</label></td>
+                    <td><textarea id="lido" name="lido" rows="2" cols="40" style="resize: none;"></textarea></td>
+                </tr>
+                <tr>
+                    <td> <label for="favcolor">Mau yeu thich:</label></td>
+                    <td><input type="color" id="favcolor" name="favcolor"></td>
+                </tr>
+                <tr>
+                   <td><label> đăng kí nhận bản tin:</label></td>
+                   <td> <label>có</label>
+                    <input type="checkbox" name="gender" value="có"></td>
+                </tr>
+                <tr>
+                    <td><label >nhận thông báo qua:</label></td>
+                    <td><label>email</label>
+                        <input type="radio" name="gui" value="email">
+                        <label>sms</label>
+                        <input type="radio" name="gui" value="sms">
+                    </td>
+                </tr>
+        </table>
+
+       
+        
+        <button>send</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.danh-sach-bai-viet {
+    background-color: #f4f4f4;
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bai-viet {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.bai-viet:last-child {
+    border-bottom: none;
+}
+
+.bai-viet img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.noi-dung {
+    flex: 1;
+}
+
+.noi-dung h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.nam {
+    background-color: #1e40af;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.the-loai {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.noi-dung p {
+    margin-top: 10px;
+    color: #444;
+    line-height: 1.5;
+}
+i{
+    margin-top: 10px;
+}

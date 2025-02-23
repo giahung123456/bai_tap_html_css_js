@@ -1,0 +1,51 @@
+/* b1:thiet lap thong so chung
+ */
+ *{
+    /* thể loại chữ nữa */
+   font-size: 20px;
+    color: rgba(0, 0, 0, 0.778);
+ }
+
+
+ .exe6 h3{
+    font-size: 35px;
+ }
+.exe6 .m1{
+    background-color: #00ff0c;
+    color: #eb1717;
+}
+.exe6 .dm-figure{ 
+    border: 3px solid cornflowerblue;
+    text-align: center;
+    line-height: 3.5;
+    
+}
+.exe6 .demo-code{
+   background-color: #e5e9ed;
+   padding: 20px;
+   margin-top: 20px;
+
+}
+.demo-code h4{
+    font-style: 30px;
+    margin-top: 0px;
+    margin-bottom:20px ;
+}
+.demo-code .code-content{
+background-color: aliceblue;
+border-left: 3px solid chartreuse;
+padding: 15px;
+}
+.code-content p:nth-child(1) {
+   margin-top: 0; 
+}
+.code-content p:nth-child(44) {
+   margin-bottom: 0; 
+}
+.code-content p:nth-child(22) {
+   margin-left: 20px; 
+}
+.code-content p:nth-child(33) {
+   margin-left: 220px; 
+}
+

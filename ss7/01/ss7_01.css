@@ -1,0 +1,21 @@
+body {
+    background:#eaeaea;
+}
+ h3 {
+    color: #231751;
+}
+.ntv{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+.kth{
+    background-color:aliceb;
+    color:cornflowerblue;
+    border-radius: 5px;
+    border: solid #c1bdd1;
+    height: 50px;
+    
+}

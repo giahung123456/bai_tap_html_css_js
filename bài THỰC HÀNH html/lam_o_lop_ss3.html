@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://www.myserver.com" method="POST">
+        <div>
+            <label for="username">username</label>
+            <input type="text" name="username" id="username" placeholder="abc..." />
+        </div>
+
+        <div>
+            <label for="passwork">passwork</label>
+            <input type="password" name="pastwork" id="passwork" placeholder="qg35l*@qg..." />
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="abc..@...." />
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="qg35l*@qg..." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+        </div>
+        <div>
+            <label for="url">url</label>
+            <input type="url" name="url" id="url" placeholder="qg35l*@qg..." />
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="range" name="age" id="age" min="0" max="10" step="1" />
+        </div>
+        <div>
+            <label for="birthday">birthday</label>
+            <input type="date" name="birthday" id="birthday"  />
+        </div>
+       <input type="reset" value="gui thong tin">
+       <div>
+        <label for="male">nam</label>
+        <input type="checkbox" id="male" name="gender" value="male"/>
+        <label for="female">nữ</label>
+        <input type="checkbox" id="female" name="gender" value="female"/>
+       </div>
+       <div>
+        <select name="city" multiple>
+            <option value="hn"> hn </option>
+            <option value="hcm"> hcm </option>
+            <option value="dn"> da nang </option>
+        </select>
+       </div>
+       
+    </form>
+
+</body>
+
+</html>

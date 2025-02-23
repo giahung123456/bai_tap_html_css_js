@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.header {
+    background-color: dodgerblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.main {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+
+.sidebar {
+    background-color: green;
+    width: 25%;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.content {
+    background-color: red;
+    width: 75%;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: purple;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+

@@ -1,0 +1,36 @@
+.phong{
+    background-color: #f4f4f4;
+}
+.duong{
+    background-color: #027bff;
+}
+.id2{
+    background-color: #ffffff;
+}
+.id4{
+    background-color: #ffffff;
+}
+td{
+    border: #e0e0e0 solid 1px;
+
+}
+
+table{
+    border-collapse: collapse;
+}
+.view {
+    background-color: chartreuse;
+    border: none;
+}
+.update {
+    background-color: rgb(221, 255, 0);
+    border: none;
+}
+.delete {
+    background-color: rgb(255, 0, 17);
+    border: none;
+}
+.dona {
+  width: 50%;
+  padding: 2px;
+}

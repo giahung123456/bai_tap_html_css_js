@@ -1,0 +1,11 @@
+.custom-dropdown {
+    background-color: #f04e3c;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.custom-dropdown:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}

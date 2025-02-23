@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid gray;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 25px;
+    width: 990px;
+    margin: 15%;
+}
+
+.child {
+    margin: 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.child div {
+    background-color: #2ecc71;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 220px;
+    height: 60px;
+    font-size: 10px;
+}

@@ -1,0 +1,29 @@
+img{
+    width: 100px;  /* Đặt chiều rộng ảnh */
+    height: 100px;  /* Đặt chiều cao ảnh */
+    object-fit: cover; /* Giữ nguyên tỉ lệ và cắt phần dư nếu cần */
+    border-radius: 5px; /* Bo góc ảnh nếu muốn */
+}
+.thanh1{
+    border-left: 2px solid #545655;
+    padding: 5px;
+}
+.thanh2{
+    border-left: 2px solid #545655;
+    padding: 5px;
+}
+.thanh3{
+    border-left: 2px solid #545655;
+    padding: 5px;
+}
+table {
+    margin-top: 25px;
+}
+a {
+    text-decoration: none; /* Bỏ dấu gạch chân */
+    color: blue; /* Thay đổi màu khi hover */
+}
+div {
+    color: rgb(212, 155, 236);
+    font-size: 10px;
+}
